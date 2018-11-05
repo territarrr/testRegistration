@@ -1,0 +1,78 @@
+@import url(https://fonts.googleapis.com/css?family=Arimo:400,400italic|Playfair+Display+SC:400,700&subset=latin,cyrillic);
+
+#avatar {
+    border-radius: 100px; /* Радиус скругления */
+    border: 3px solid #525253; /* Параметры рамки */
+    box-shadow: 0 0 7px #666; /* Параметры тени */
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+#logout{
+    overflow: visible;
+    line-height:100%;
+    width: 100%;
+    margin: 0 30%;
+    height: 150px;
+}
+#username{
+    vertical-align:bottom;
+    display:inline-block;
+    padding: 10px;
+    margin-right: 20px;
+    text-align: center;
+    float: left;
+    color:#515151;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+}
+
+#logoutbutton{
+    line-height:100%;
+    text-decoration:none;
+    text-align:center;
+    padding:5px 15px;
+    float: left;
+    border:none;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius: 3px;
+    font:30px 'Roboto', sans-serif;
+    text-shadow: -1px -1px 0 #a4a4a4,
+    1px -1px 0 #a4a4a4,
+    -1px 1px 0 #a4a4a4,
+    1px 1px 0 #a4a4a4;
+    font-weight:bold;
+    color:#ffffff;
+    background-color: #a4a4a4;
+    background-image: -moz-linear-gradient(top, #c3c3c3 0%, #a0a4a5 100%);
+    background-image: -webkit-linear-gradient(top,#c3c3c3 0%, #a0a4a5 100%);
+    background-image: -o-linear-gradient(top,#c3c3c3 0%, #a0a4a5 100%);
+    background-image: -ms-linear-gradient(top, #c3c3c3 0%, #a0a4a5 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b2b7b8', endColorstr='#b2b7b8',GradientType=0 );
+    background-image: linear-gradient(top, #d6d6d6 0% ,#b2b7b8 100%);
+    -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #bdaaaa;
+    -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #bdaaaa;
+    box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #bdaaaa;
+}
+
+#other_info{
+    overflow: visible;
+    line-height:150%;
+    width: 100%;
+    margin: 0 30%;
+    height: 150px;
+}
+
+#other_info>div{
+    margin-bottom: 20px;
+}
+
+.label-info{
+    width:30%;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: lighter;
+}
+

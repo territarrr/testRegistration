@@ -1,0 +1,43 @@
+.help {
+    color: #a0a4a5; outline: none; /*цвет подсказки*/
+    cursor: help; text-decoration: none; /*вид курсора при наведении, можно заменить на pointer*/
+    position: relative; /*позиция*/
+}
+
+/*положение всплывающей подсказки*/
+.help span {
+    margin-left: -999em;
+    position: absolute;
+}
+
+/*подсказка при наведении курсора*/
+.help:hover span {
+    font-family:'Roboto', sans-serif; /*шрифт*/
+    font-size: 10px;
+    position: absolute; /*позиция*/
+    left: 10px;
+    top: 25px;
+    z-index: 99;
+    margin-left: 0;
+    width: 200px; /*ширина блока подсказки*/
+}
+
+/*параметры изображения*/
+.help:hover img {
+    border: 0;
+}
+
+/*блок всплывающей подсказки*/
+.airhelp {
+    background: none repeat scroll 0 0 rgba(195, 195, 195, 0.9); /*цвет и прозрачность фона*/
+    border: 1px solid #e2e2e2; /*параметры бордюра*/
+    border-radius: 5px; /*закругление углов*/
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2); /*тень блока*/
+    color: #0e0e0e; /*цвет шрифта всплывающей подсказки*/
+    padding: 10px; /*внутренний отступ*/
+}
+
+.help>img{
+    width: 30px;
+    height: 30px;
+}

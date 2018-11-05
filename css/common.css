@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #ffffff;
+}
+
+/*Блок ошибок*/
+#error{
+    width: 80%;
+    padding: 8px;
+    text-align:center;
+    -webkit-border-radius:2px;
+    -moz-border-radius:2px;
+    border-radius: 2px;
+    margin: 10px auto;
+    background: rgba(250, 41, 21, 0.18);
+    font:12px 'Roboto', sans-serif;
+    color: rgba(250, 41, 21, 0.77);
+}
+
+#container{
+    width: 60%;
+    height:100vh;
+    margin: 0 auto;
+    background-color: rgba(237, 237, 237, 0.63);
+    padding:50px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+/*Элементы форм*/
+.form-text {
+    text-align:center;
+    margin:20px;
+    color:#515151;
+    font-family: 'Lobster', cursive;
+}
+
+.text_input {
+    color: #525253;
+    border: 0;
+    margin: 5px 35px 0 3px;
+    padding: 0px 0px 0px 10px;
+    width: 229px;
+    height: 32px;
+    background: url('../img/text_input.png') top left no-repeat;
+}
+
+#login, #registration{
+    text-decoration:none;
+    text-align:center;
+    padding:5px 15px;
+    float: left;
+    border:none;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius: 3px;
+    font:12px 'Roboto', sans-serif;
+    text-shadow: -1px -1px 0 #a4a4a4,
+    1px -1px 0 #a4a4a4,
+    -1px 1px 0 #a4a4a4,
+    1px 1px 0 #a4a4a4;
+    font-weight:bold;
+    color:#ffffff;
+    background-color: #a4a4a4;
+    background-image: -moz-linear-gradient(top, #c3c3c3 0%, #a0a4a5 100%);
+    background-image: -webkit-linear-gradient(top,#c3c3c3 0%, #a0a4a5 100%);
+    background-image: -o-linear-gradient(top,#c3c3c3 0%, #a0a4a5 100%);
+    background-image: -ms-linear-gradient(top, #c3c3c3 0%, #a0a4a5 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b2b7b8', endColorstr='#b2b7b8',GradientType=0 );
+    background-image: linear-gradient(top, #d6d6d6 0% ,#b2b7b8 100%);
+    -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #bdaaaa;
+    -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #bdaaaa;
+    box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #bdaaaa;
+}
+
+.label-text{
+    display:inline-block;
+    width:30%;
+    text-align: left;
+    margin-right: 20px;
+    font-family:'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: lighter;
+}
